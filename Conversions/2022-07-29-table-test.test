@@ -1,0 +1,34 @@
+---
+title: Table test
+author: John Zumsteg
+date: Fri, 28 Jul 15:42:23 +0000
+category: TBD
+math: true
+mermaid: true
+layout: post
+---
+**Table Test**  
+<table>
+<tr>
+<td><figure class = "landscape" >
+	<img src="{{"/assets/images/2022/06/DSC02529-1.jpg" | prepend: site.baseurl | prepend: site.url }}" alt="Image" />
+	<figcaption><em>The St. Louis Zummies - ready for a swimming pool outing.</em></figcaption>
+</figure>
+</td><td><figure class = "landscape" >
+	<img src="{{"/assets/images/2022/06/DSC02529-1.jpg" | prepend: site.baseurl | prepend: site.url }}" alt="Image" />
+	<figcaption><em>The St. Louis Zummies - ready for a swimming pool outing.</em></figcaption>
+</figure>
+</td>
+</tr>
+<tr>
+<td><figure class = "landscape" >
+	<img src="{{"/assets/images/2022/06/DSC02529-1.jpg" | prepend: site.baseurl | prepend: site.url }}" alt="Image" />
+	<figcaption><em>The St. Louis Zummies - ready for a swimming pool outing.</em></figcaption>
+</figure></td><td><figure class = "landscape" >
+	<img src="{{"/assets/images/2022/06/DSC02529-1.jpg" | prepend: site.baseurl | prepend: site.url }}" alt="Image" />
+	<figcaption><em>The St. Louis Zummies - ready for a swimming pool outing.</em></figcaption>
+</figure></td>
+</tr>
+</table>
+
+
