@@ -21,7 +21,10 @@ layout: default
       {%- endif -%}
     </div>
 
-    <p>{{ post.excerpt | strip_html | truncatewords: 150 | append: '... <em>(click title to see full post)</em>' }}</p>
+    <p>{{ post.excerpt | strip_html | truncatewords: 80  }}
+      <a href="{{ post.url | relative_url }}">
+        <em>(Click here or on the title to see the full post.)</em> 
+      </a></p>
   </section>
   {% endfor %}
   {%- if jekyll.environment == "production" and site.disqus -%}
