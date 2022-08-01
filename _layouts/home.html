@@ -21,14 +21,7 @@ layout: default
       {%- endif -%}
     </div>
 
-<<<<<<< HEAD
-    <p>{{ post.excerpt | strip_html | truncate: 250 | append: '... <em>(click title to see full post)</em>' }}</p>
-=======
-  {{ post.excerpt | strip_html | truncatewords: 80 }}
-    <a href="{{ post.url | relative_url }}">
-      <em>(Click title or here to see full post)) </em>
-    </a>
->>>>>>> 4229038af032c738b811b8cf8b18eb678603416f
+    <p>{{ post.excerpt | strip_html | truncatewords: 150 | append: '... <em>(click title to see full post)</em>' }}</p>
   </section>
   {% endfor %}
   {%- if jekyll.environment == "production" and site.disqus -%}

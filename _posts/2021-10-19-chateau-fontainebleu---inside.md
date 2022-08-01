@@ -8,7 +8,6 @@ mermaid: true
 layout: post
 ---
 
-[Sancerre]({% post_url 2021-08-08-sancerre %})
 Earlier I wrote about walking around Chateau Fontainebleau, one of our favorite walks here. Yesterday we returned to the chateau, not for a walk but to visit the interior. We've done this before - as in, three or four times before! - but we have enjoyed every visit and wanted to see it again before we left.
 
 A very short history of the chateau: originally a hunting lodge for the French kings, in the first half of the 1500s, François 1 built probably 90% of what exists today. After François, every king and emperor of France added to - and in some cases, subtracted from - Chateau Fontainebleau. This makes Chateau Fontainebleau a museum of the French monarchy - everywhere you see changes made by successive kings and queens, often identified by those kings' and queens' monograms.
